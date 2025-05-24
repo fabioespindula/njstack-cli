@@ -1,14 +1,24 @@
 {
-  "name": "njstack",
+  "name": "create-njstack-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple CLI to scaffold my personal Next.js stack. Just the beginning — I’ll keep improving it over time.",
+  "main": "cli.js",
+  "bin": {
+    "create-njstack-app": "./cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nextjs",
+    "cli",
+    "boilerplate",
+    "typescript",
+    "tailwindcss",
+    "fabio espindula"
+  ],
+  "author": "Fabio Espindula",
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "chalk": "^5.4.1",
